@@ -1,0 +1,78 @@
+*{
+    font-family:sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.row
+{
+    width: 100%;
+    height: 100%;
+}
+.bg
+{
+    background-color: #5c5cff;
+    padding-top: 80px;
+}
+.profile{
+    width: 50%;
+    height: 200px;
+    margin-left: 100px;
+    border-radius: 200px;
+    
+}
+.position{
+   margin-top: 10px;
+   text-align: center;
+   color: white;
+}
+.name{
+    color: black;
+    font-weight: bold;
+    font-size: xx-large;
+}
+.contact
+{
+    padding-left: 80px;
+    padding-bottom: 120px;
+  
+}
+
+.size{
+    padding-left: 50px;
+}
+.head{
+    padding-top: 100px;
+    padding-bottom: 20px;
+    font-size: 28px;
+    font-weight:bold;
+    color: blue;
+}
+.text{
+    text-align: justify;
+}
+.cookie{
+    background-color: rgba(0,0,0,0.8);
+    width: 100%;
+    padding: 20px;
+    padding-right: 20px;
+    position: fixed;
+    bottom: -100%;
+    
+}
+.cookie p{
+    font-size: 15px;
+    color: white;
+    text-align: center;
+}
+#btn{
+padding: 10px 45px;
+background-color: red;
+color: white;
+font-size: 16px;
+margin-left: 600px;
+}
+.cookie.active{
+    bottom: 0%;
+}
